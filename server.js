@@ -3,7 +3,7 @@ const dotenv = require('dotenv')
 const app = express();
 
 
-app.get("/", (req, res) => {
+app.get("/api/chat", (req, res) => {
   res.send("running");
 });
 
